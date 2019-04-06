@@ -1,0 +1,517 @@
+700 0 1 0           
+4 LibG 20 ASM 224.0.1.65535 NT 24 Fri Apr  5 17:01:47 2019 
+1000 9.999999999999999547e-07 1.000000000000000036e-10 
+body $-1 -1 $-1 $1 $-1 $2 #
+lump $-1 -1 $-1 $-1 $3 $0 #
+transform $-1 -1 1 0 0 0 1 0 0 0 1 0 0 0 1 no_rotate no_reflect no_shear #
+shell $-1 -1 $-1 $-1 $-1 $4 $-1 $1 #
+face $-1 -1 $-1 $-1 $5 $3 $-1 $6 reversed double out #
+loop $-1 -1 $-1 $-1 $7 $4 #
+plane-surface $-1 -1 $-1 118.1032928617340474 124.202585343599381 21.875 -0 -0 -1 -1 0 0 forward_v I I I I #
+coedge $-1 -1 $-1 $8 $9 $-1 $10 forward $5 $-1 #
+coedge $-1 -1 $-1 $11 $7 $-1 $12 forward $5 $-1 #
+coedge $-1 -1 $-1 $7 $13 $-1 $14 forward $5 $-1 #
+edge $-1 -1 $-1 $15 -20.3928529568115593 $16 -0 $7 $17 forward @7 unknown #
+coedge $-1 -1 $-1 $18 $8 $-1 $19 forward $5 $-1 #
+edge $-1 -1 $-1 $16 -11.10358782329034177 $20 -0 $8 $21 forward @7 unknown #
+coedge $-1 -1 $-1 $9 $22 $-1 $23 forward $5 $-1 #
+edge $-1 -1 $-1 $24 -11.14199894931653567 $15 -0 $9 $25 forward @7 unknown #
+vertex $26 -1 $-1 $10 $27 #
+vertex $28 -1 $-1 $10 $29 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 20.3928529568115593 3 
+	131.9839601039410297 155.0390862206395184 21.875 
+	133.9815152770479187 148.5415960069605603 21.875 
+	135.9790704501547793 142.0441057932816307 21.875 
+	137.9766256232616684 135.5466155796026726 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+coedge $-1 -1 $-1 $30 $11 $-1 $31 forward $5 $-1 #
+edge $-1 -1 $-1 $20 -1.208834424026880683 $32 -0 $11 $33 forward @7 unknown #
+vertex $34 -1 $-1 $12 $35 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 11.10358782329034177 3 
+	121.0642993770476892 153.0264580485558668 21.875 
+	124.7041862860121313 153.6973341059170934 21.875 
+	128.3440731949765734 154.3682101632782917 21.875 
+	131.9839601039410297 155.0390862206395184 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+coedge $-1 -1 $-1 $13 $36 $-1 $37 forward $5 $-1 #
+edge $-1 -1 $-1 $38 -4.091029489227651084 $24 -0 $13 $39 forward @7 unknown #
+vertex $40 -1 $-1 $23 $41 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 11.14199894931653567 3 
+	137.9766256232616684 135.5466155796026726 21.875 
+	139.0284560608332072 131.9846714294080243 21.875 
+	140.0802864984047744 128.4227272792133761 21.875 
+	141.1321169359763132 124.8607831290187136 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $15 keep keep_kept ignore copy @9 index_tag 2 #
+point $-1 -1 $-1 137.9766256232616684 135.5466155796026726 21.875 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $16 keep keep_kept ignore copy @9 index_tag 45 #
+point $-1 -1 $-1 131.9839601039410297 155.0390862206395184 21.875 #
+coedge $-1 -1 $-1 $42 $18 $-1 $43 forward $5 $-1 #
+edge $-1 -1 $-1 $32 -1.572870863923933715 $44 -0 $18 $45 forward @7 unknown #
+vertex $46 -1 $-1 $19 $47 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 1.208834424026880683 3 
+	119.8740701976909406 152.8151876878325481 21.875 
+	120.2708132574765187 152.8856111414069971 21.875 
+	120.6675563172621111 152.9560345949814177 21.875 
+	121.0642993770476892 153.0264580485558668 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $20 keep keep_kept ignore copy @9 index_tag 43 #
+point $-1 -1 $-1 121.0642993770476892 153.0264580485558668 21.875 #
+coedge $-1 -1 $-1 $22 $48 $-1 $49 forward $5 $-1 #
+edge $-1 -1 $-1 $50 -3.952241758730084431 $38 -0 $22 $51 forward @7 unknown #
+vertex $52 -1 $-1 $37 $53 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 4.091029489227651084 3 
+	141.1321169359763132 124.8607831290187136 21.875 
+	141.5288599957619056 123.5560959897508724 21.875 
+	141.9256030555474695 122.2514088504830454 21.875 
+	142.3223461153330618 120.9467217112152042 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $24 keep keep_kept ignore copy @9 index_tag 3 #
+point $-1 -1 $-1 141.1321169359763132 124.8607831290187136 21.875 #
+coedge $-1 -1 $-1 $54 $30 $-1 $55 forward $5 $-1 #
+edge $-1 -1 $-1 $44 -3.234592962322799359 $56 -0 $30 $57 forward @7 unknown #
+vertex $58 -1 $-1 $31 $59 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 1.572870863923933715 3 
+	118.3240042896906061 152.5483198639273041 21.875 
+	118.8406929256907176 152.6372758052290521 21.875 
+	119.3573815616908291 152.7262317465308001 21.875 
+	119.8740701976909406 152.8151876878325481 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $32 keep keep_kept ignore copy @9 index_tag 41 #
+point $-1 -1 $-1 119.8740701976909406 152.8151876878325481 21.875 #
+coedge $-1 -1 $-1 $36 $60 $-1 $61 forward $5 $-1 #
+edge $-1 -1 $-1 $62 -2.326324318297076754 $50 -0 $36 $63 forward @7 unknown #
+vertex $64 -1 $-1 $49 $65 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 3.952241758730084431 3 
+	142.3223461153330618 120.9467217112152042 21.875 
+	141.0559976279938894 120.5834849508119646 21.875 
+	139.7896491406547455 120.2202481904087108 21.875 
+	138.5233006533155731 119.8570114300054712 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $38 keep keep_kept ignore copy @9 index_tag 5 #
+point $-1 -1 $-1 142.3223461153330618 120.9467217112152042 21.875 #
+coedge $-1 -1 $-1 $66 $42 $-1 $67 forward $5 $-1 #
+edge $-1 -1 $-1 $56 -1.718023819876028924 $68 -0 $42 $69 forward @7 unknown #
+vertex $70 -1 $-1 $43 $71 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 3.234592962322799359 3 
+	115.1477531657094602 151.9367477673461337 21.875 
+	116.2065035403698374 152.1406051328731905 21.875 
+	117.2652539150302289 152.3444624984002473 21.875 
+	118.3240042896906061 152.5483198639273041 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $44 keep keep_kept ignore copy @9 index_tag 39 #
+point $-1 -1 $-1 118.3240042896906061 152.5483198639273041 21.875 #
+coedge $-1 -1 $-1 $48 $72 $-1 $73 forward $5 $-1 #
+edge $-1 -1 $-1 $74 -2.764422796675229499 $62 -0 $48 $75 forward @7 unknown #
+vertex $76 -1 $-1 $61 $77 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 2.326324318297076754 3 
+	138.5233006533155731 119.8570114300054712 21.875 
+	137.7782540933688722 119.6420345719473772 21.875 
+	137.0332075334221997 119.4270577138892833 21.875 
+	136.2881609734754988 119.2120808558311893 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $50 keep keep_kept ignore copy @9 index_tag 7 #
+point $-1 -1 $-1 138.5233006533155731 119.8570114300054712 21.875 #
+coedge $-1 -1 $-1 $78 $54 $-1 $79 forward $5 $-1 #
+edge $-1 -1 $-1 $68 -6.772193366583495688 $80 -0 $54 $81 forward @7 unknown #
+vertex $82 -1 $-1 $55 $83 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 1.718023819876028924 3 
+	113.4523685788337986 151.658760450646497 21.875 
+	114.0174967744590191 151.7514228895463759 21.875 
+	114.5826249700842396 151.8440853284462548 21.875 
+	115.1477531657094602 151.9367477673461337 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $56 keep keep_kept ignore copy @9 index_tag 37 #
+point $-1 -1 $-1 115.1477531657094602 151.9367477673461337 21.875 #
+coedge $-1 -1 $-1 $60 $84 $-1 $85 forward $5 $-1 #
+edge $-1 -1 $-1 $86 -6.694540943850717518 $74 -0 $60 $87 forward @7 unknown #
+vertex $88 -1 $-1 $73 $89 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 2.764422796675229499 3 
+	136.2881609734754988 119.2120808558311893 21.875 
+	136.0344299468687552 120.0979337715138655 21.875 
+	135.7806989202620116 120.9837866871965417 21.875 
+	135.526967893655268 121.8696396028792179 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $62 keep keep_kept ignore copy @9 index_tag 9 #
+point $-1 -1 $-1 136.2881609734754988 119.2120808558311893 21.875 #
+coedge $-1 -1 $-1 $90 $66 $-1 $91 forward $5 $-1 #
+edge $-1 -1 $-1 $80 -7.914566264417285169 $92 -0 $66 $93 forward @7 unknown #
+vertex $94 -1 $-1 $67 $95 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 6.772193366583495688 3 
+	106.7331096651384144 150.8136790077531941 21.875 
+	108.9728626363702091 151.0953728220509618 21.875 
+	111.2126156076020038 151.3770666363487294 21.875 
+	113.4523685788337986 151.658760450646497 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $68 keep keep_kept ignore copy @9 index_tag 35 #
+point $-1 -1 $-1 113.4523685788337986 151.658760450646497 21.875 #
+coedge $-1 -1 $-1 $72 $96 $-1 $97 forward $5 $-1 #
+edge $-1 -1 $-1 $98 -18.26571193038468266 $86 -0 $72 $99 forward @7 unknown #
+vertex $100 -1 $-1 $85 $101 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 6.694540943850717518 3 
+	135.526967893655268 121.8696396028792179 21.875 
+	133.3840940416730518 121.2469480135036406 21.875 
+	131.2412201896908357 120.6242564241280633 21.875 
+	129.0983463377086196 120.0015648347524859 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $74 keep keep_kept ignore copy @9 index_tag 11 #
+point $-1 -1 $-1 135.526967893655268 121.8696396028792179 21.875 #
+coedge $-1 -1 $-1 $102 $78 $-1 $103 forward $5 $-1 #
+edge $-1 -1 $-1 $92 -6.024383820591352467 $104 -0 $78 $105 forward @7 unknown #
+vertex $106 -1 $-1 $79 $107 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 7.914566264417285169 3 
+	108.4907736858175156 143.0967510993000928 21.875 
+	107.9048856789244866 145.6690604021177933 21.875 
+	107.3189976720314434 148.2413697049354937 21.875 
+	106.7331096651384144 150.8136790077531941 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $80 keep keep_kept ignore copy @9 index_tag 33 #
+point $-1 -1 $-1 106.7331096651384144 150.8136790077531941 21.875 #
+coedge $-1 -1 $-1 $84 $108 $-1 $109 forward $5 $-1 #
+edge $-1 -1 $-1 $110 -25.12153632350776533 $98 -0 $84 $111 forward @7 unknown #
+vertex $112 -1 $-1 $97 $113 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 18.26571193038468266 3 
+	129.0983463377086196 120.0015648347524859 21.875 
+	130.7245315536907242 114.1341792053820114 21.875 
+	132.3507167696728288 108.266793576011537 21.875 
+	133.9769019856549335 102.3994079466410625 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $86 keep keep_kept ignore copy @9 index_tag 13 #
+point $-1 -1 $-1 129.0983463377086196 120.0015648347524859 21.875 #
+coedge $-1 -1 $-1 $114 $90 $-1 $115 forward $5 $-1 #
+edge $-1 -1 $-1 $104 -3.651849945522811502 $116 -0 $90 $117 forward @7 unknown #
+vertex $118 -1 $-1 $91 $119 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 6.024383820591352467 3 
+	109.8886009778530308 137.2367784645991833 21.875 
+	109.422658547174521 139.1901026761661626 21.875 
+	108.9567161164960254 141.1434268877331135 21.875 
+	108.4907736858175156 143.0967510993000928 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $92 keep keep_kept ignore copy @9 index_tag 31 #
+point $-1 -1 $-1 108.4907736858175156 143.0967510993000928 21.875 #
+coedge $-1 -1 $-1 $96 $120 $-1 $121 forward $5 $-1 #
+edge $-1 -1 $-1 $122 -7.47302982834804741 $110 -0 $96 $123 forward @7 unknown #
+vertex $124 -1 $-1 $109 $125 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 25.12153632350776533 3 
+	133.9769019856549335 102.3994079466410625 21.875 
+	125.9820680018337811 99.90864158992884825 21.875 
+	117.9872340180126145 97.417875233216634 21.875 
+	109.9924000341914621 94.92710887650441975 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $98 keep keep_kept ignore copy @9 index_tag 15 #
+point $-1 -1 $-1 133.9769019856549335 102.3994079466410625 21.875 #
+coedge $-1 -1 $-1 $120 $102 $-1 $126 forward $5 $-1 #
+edge $-1 -1 $-1 $116 -3.747054759254629719 $127 -0 $102 $128 forward @7 unknown #
+vertex $129 -1 $-1 $103 $130 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 3.651849945522811502 3 
+	110.2276778952281688 133.6007043634953106 21.875 
+	110.1146522561031276 134.8127290638632587 21.875 
+	110.0016266169780721 136.0247537642312352 21.875 
+	109.8886009778530308 137.2367784645991833 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $104 keep keep_kept ignore copy @9 index_tag 29 #
+point $-1 -1 $-1 109.8886009778530308 137.2367784645991833 21.875 #
+coedge $-1 -1 $-1 $108 $114 $-1 $131 forward $5 $-1 #
+edge $-1 -1 $-1 $132 -37.64879555958258095 $122 -0 $108 $133 forward @7 unknown #
+vertex $134 -1 $-1 $121 $135 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 7.47302982834804741 3 
+	109.9924000341914621 94.92710887650441975 21.875 
+	107.6142483211738181 94.18580936556875827 21.875 
+	105.2360966081561884 93.44450985463309678 21.875 
+	102.8579448951385444 92.70321034369743529 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $110 keep keep_kept ignore copy @9 index_tag 17 #
+point $-1 -1 $-1 109.9924000341914621 94.92710887650441975 21.875 #
+edge $-1 -1 $-1 $127 -9.165009079079039722 $136 -0 $114 $137 forward @7 unknown #
+vertex $138 -1 $-1 $115 $139 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 3.747054759254629719 3 
+	106.6708302313349748 132.4220381407204741 21.875 
+	107.8564461192993775 132.8149268816454196 21.875 
+	109.0420620072637661 133.2078156225703651 21.875 
+	110.2276778952281688 133.6007043634953106 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $116 keep keep_kept ignore copy @9 index_tag 27 #
+point $-1 -1 $-1 110.2276778952281688 133.6007043634953106 21.875 #
+edge $-1 -1 $-1 $136 -5.525689924502397155 $132 -0 $120 $140 forward @7 unknown #
+vertex $141 -1 $-1 $131 $142 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 37.64879555958258095 3 
+	102.8579448951385444 92.70321034369743529 21.875 
+	99.37721653922775999 104.7604468895255252 21.875 
+	95.89648818331696134 116.8176834353536151 21.875 
+	92.4157598274061769 128.874919981181705 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $122 keep keep_kept ignore copy @9 index_tag 19 #
+point $-1 -1 $-1 102.8579448951385444 92.70321034369743529 21.875 #
+vertex $143 -1 $-1 $126 $144 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 9.165009079079039722 3 
+	97.75795126033449378 130.287095549478579 21.875 
+	100.7289109173346588 130.9987430798925345 21.875 
+	103.6998705743348097 131.7103906103065185 21.875 
+	106.6708302313349748 132.4220381407204741 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $127 keep keep_kept ignore copy @9 index_tag 25 #
+point $-1 -1 $-1 106.6708302313349748 132.4220381407204741 21.875 #
+intcurve-curve $-1 -1 $-1 reversed { exactcur full nubs 3 open 2 
+	0 3 5.525689924502397155 3 
+	92.4157598274061769 128.874919981181705 21.875 
+	94.19649030504895393 129.3456451706140058 21.875 
+	95.97722078269171675 129.8163703600462782 21.875 
+	97.75795126033449378 130.287095549478579 21.875 
+	0 
+	
+	null_surface 
+	null_surface 
+	nullbs 
+	nullbs 
+	I I 
+	0 
+	0 
+	0 
+	F 1 F 0 } I I #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $132 keep keep_kept ignore copy @9 index_tag 21 #
+point $-1 -1 $-1 92.4157598274061769 128.874919981181705 21.875 #
+integer_attrib-name_attrib-gen-attrib $-1 -1 $-1 $-1 $136 keep keep_kept ignore copy @9 index_tag 23 #
+point $-1 -1 $-1 97.75795126033449378 130.287095549478579 21.875 #
+End-of-ACIS-data 
