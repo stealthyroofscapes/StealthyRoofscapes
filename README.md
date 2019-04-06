@@ -1,7 +1,7 @@
 # Stealthy Roofscapes
 Project from the UK Dynamo User Group Dynamo + Generative Design Hackathon 2019
 
-#### Thomas Corrie, Wiktor Kidziak, Bogdan Davydov
+#### [Thomas Corrie](https://github.com/thomascorrie), [Wiktor Kidziak](https://github.com/wawa2016), [Bogdan Davydov](https://github.com/BDavydov)
 
 Using Dynamo and Refinery to generate cuboid forms on top of an existing building and assess how visible it is from views around the surrounding streets. The initial form is a simple cuboid that could be used as a starting point for a more detailed design
 
@@ -9,7 +9,10 @@ Using Dynamo and Refinery to generate cuboid forms on top of an existing buildin
 Dynamo Sandbox 2.0.2
 Refinery
 
-![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/cover.PNG)
+![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/1-FirstTest-lowest%20score%2C%20smallest%20volume.PNG)
+A tall high-volume addition can be seen easily from lots of viewpoints (lines in red)
+![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/1-FirstTest-best%20score.PNG)
+A low small-volume addition is well-hidden (green lines cannot see it)
 
 #### Process
 * Export area of interest from OpenStreetMap
@@ -32,6 +35,7 @@ Refinery
 * The Outputs are volume (Maximize) and mean score (Maximize)
 
 #### Future improvements
+* Consolidate into a View Extension or Custom Package
 * Generate more complex forms
 * Greater number of assessment points
 * More detailed panelisation to give uniform scores
