@@ -1,5 +1,6 @@
 # Stealthy Roofscapes
-Project from the UK Dynamo User Group Dynamo + Generative Design Hackathon 2019
+Project from the UK Dynamo User Group Dynamo + Generative Design Hackathon 2019  
+Thanks to the UK Dynamo User Group Committee and Autodesk for organising the event
 
 #### [Thomas Corrie](https://github.com/thomascorrie), [Wiktor Kidziak](https://github.com/wawa2016), [Bogdan Davydov](https://github.com/BDavydov)
 
@@ -39,6 +40,7 @@ A low small-volume addition is well-hidden (green lines cannot see it)
 * Consolidate into a View Extension or Custom Package
 * Generate more complex forms
 * Greater number of assessment points
+* Refine the surfaces-seen algorithm to exclude hidden portions of surfaces facing the viewer
 * More detailed panelisation to give uniform scores
 * Better positioning of assessment viewpoints
 * Additional assessment criteria
