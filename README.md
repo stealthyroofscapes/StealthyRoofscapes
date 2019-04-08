@@ -11,10 +11,7 @@ Dynamo Sandbox 2.0.2
 Lunchbox  
 Refinery Beta  
 
-![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/1-FirstTest-lowest%20score%2C%20smallest%20volume.PNG)
-A tall high-volume addition can be seen easily from lots of viewpoints (lines in red)
-![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/1-FirstTest-best%20score.PNG)
-A low small-volume addition is well-hidden (green lines cannot see it)
+![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/Refinery_Combined_Reverse.gif)
 
 #### Process
 * Export area of interest from OpenStreetMap
