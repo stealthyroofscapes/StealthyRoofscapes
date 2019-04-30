@@ -1,6 +1,6 @@
 # Stealthy Roofscapes
 Project from the UK Dynamo User Group Dynamo + Generative Design Hackathon 2019  
-Thanks to the UK Dynamo User Group Committee and Autodesk for organising the event, We Work for hosting and Enstoa for the Dynamo View Extensions workshop
+Thanks to the UK Dynamo User Group Committee and Autodesk for organising the event, WeWork for hosting and Enstoa for the Dynamo View Extensions workshop
 
 #### [Thomas Corrie](https://github.com/thomascorrie), [Wiktor Kidziak](https://github.com/wawa2016), [Bogdan Davydov](https://github.com/BDavydov)
 
@@ -8,19 +8,22 @@ Using Dynamo and Refinery to generate cuboid forms on top of an existing buildin
 
 #### Requirements
 Dynamo Sandbox 2.0.2  
+Elk
 Lunchbox  
 Refinery Beta  
 
-![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/Refinery_Combined_Reverse.gif)
+![Stealthy Roofscapes](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/Refinery.gif)
 
 #### Process
 * Export area of interest from OpenStreetMap
 * Use **StealthyRoofscapes_CreateContextfromOSM.dyn** 
+![StealthyRoofscapes_CreateContextfromOSM.dyn](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/StealthyRoofscapes_CreateContextFromOSM.png)
 * Create the setup context
 * Select the building of interest
 * Create the assessment viewpoints
 * Export the results to SAT files
-* Use **StealthyRoofscapes_CreateForm.dyn**
+* Use **StealthyRoofscapes_CreateForm.dyn** 
+![StealthyRoofscapes_CreateForm.dyn](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/StealthyRoofscapes_CreateForm.png)
 * The graph uses parameters to create a form on top of the chosen roof. If the form overhangs the roof then it is trimmed to the roof edge
 * For each viewpoint the visible sides are chosen and panelised
 * Lines are drawn from the viewpoint to the centre of each panel
