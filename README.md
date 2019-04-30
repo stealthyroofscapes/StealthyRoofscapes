@@ -8,7 +8,7 @@ Using Dynamo and Refinery to generate cuboid forms on top of an existing buildin
 
 #### Requirements
 Dynamo Sandbox 2.0.2  
-Elk
+Elk  
 Lunchbox  
 Refinery Beta  
 
@@ -17,12 +17,14 @@ Refinery Beta
 #### Process
 * Export area of interest from OpenStreetMap
 * Use **StealthyRoofscapes_CreateContextfromOSM.dyn** 
+
 ![StealthyRoofscapes_CreateContextfromOSM.dyn](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/StealthyRoofscapes_CreateContextFromOSM.png)
 * Create the setup context
 * Select the building of interest
 * Create the assessment viewpoints
 * Export the results to SAT files
-* Use **StealthyRoofscapes_CreateForm.dyn** 
+* Use **StealthyRoofscapes_CreateForm.dyn**  
+
 ![StealthyRoofscapes_CreateForm.dyn](https://github.com/thomascorrie/StealthyRoofscapes/blob/master/images/StealthyRoofscapes_CreateForm.png)
 * The graph uses parameters to create a form on top of the chosen roof. If the form overhangs the roof then it is trimmed to the roof edge
 * For each viewpoint the visible sides are chosen and panelised
